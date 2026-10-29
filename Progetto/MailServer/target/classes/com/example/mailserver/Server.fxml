@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="311.0" prefWidth="469.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mailserver.controller.Controller">
+   <Label layoutX="184.0" layoutY="14.0" style="-fx-font-size: 20px;" text="Server Log" />
+   <TextArea fx:id="logArea" editable="false" layoutX="6.0" layoutY="50.0" prefHeight="200.0" prefWidth="457.0" wrapText="true" />
+   <Button layoutX="323.0" layoutY="263.0" onAction="#startServer" prefHeight="25.0" prefWidth="102.0" text="Avvia Server" />
+   <Button layoutX="38.0" layoutY="263.0" onAction="#stopServer" mnemonicParsing="false" prefHeight="25.0" prefWidth="102.0" text="Ferma Server" />
+</Pane>

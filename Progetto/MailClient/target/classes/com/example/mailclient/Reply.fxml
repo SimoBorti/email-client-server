@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="639.0" prefWidth="490.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mailclient.controller.ControllerReply">
+    <Label layoutX="13.0" layoutY="59.0" prefHeight="29.0" prefWidth="82.0" text="Destinatari/o:" />
+    <TextField fx:id="txtDestinatario" editable="false" layoutX="95.0" layoutY="61.0" prefWidth="382.0" />
+    <TextField fx:id="txtOggetto" editable="false" layoutX="95.0" layoutY="104.0" prefHeight="26.0" prefWidth="382.0" />
+    <Label layoutX="13.0" layoutY="108.0" prefHeight="18.0" prefWidth="74.0" text="Oggetto:" />
+    <TextArea fx:id="txtCorpo" layoutX="14.0" layoutY="352.0" prefHeight="205.0" prefWidth="464.0" />
+    <Button layoutX="403.0" layoutY="590.0" mnemonicParsing="false" onAction="#handleReply" prefHeight="30.0" prefWidth="74.0" text="Invia" />
+    <Label layoutX="13.0" layoutY="26.0" prefHeight="17.0" prefWidth="74.0" text="Mittente (tu):" />
+    <TextField fx:id="txtMittente" editable="false" layoutX="95.0" layoutY="22.0" prefHeight="25.0" prefWidth="382.0" />
+   <TextArea fx:id="txtRicezione" editable="false" layoutX="14.0" layoutY="221.0" prefHeight="84.0" prefWidth="464.0" />
+   <Label layoutX="14.0" layoutY="195.0" prefHeight="17.0" prefWidth="154.0" text="Conversazione precedente:" />
+   <Label layoutX="13.0" layoutY="327.0" text="Messaggio di risposta:" />
+   <Label layoutX="14.0" layoutY="149.0" text="Data:" />
+   <TextField fx:id="txtDate" editable="false" layoutX="95.0" layoutY="145.0" prefHeight="25.0" prefWidth="382.0" />
+</Pane>

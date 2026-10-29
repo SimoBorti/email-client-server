@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="541.0" prefWidth="743.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mailclient.controller.ControllerMainPage">
+   <Button layoutX="33.0" layoutY="39.0" mnemonicParsing="false" onAction="#handleScrivi" prefHeight="30.0" prefWidth="104.0" text="Scrivi"/>
+   <Button layoutX="33.0" layoutY="495.0" mnemonicParsing="false" onAction="#handleCancella" prefHeight="30.0" prefWidth="78.0" text="Cancella"/>
+   <Button layoutX="638.0" layoutY="495.0" mnemonicParsing="false" onAction="#handleRispondi" prefHeight="30.0" prefWidth="78.0" text="Rispondi"/>
+   <Button layoutX="437.0" layoutY="495.0" mnemonicParsing="false" onAction="#handleRispondiATutti" prefHeight="30.0" prefWidth="104.0" text="Rispondi a tutti"/>
+   <Button layoutX="504.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleCheckConnection" text="Visualizza stato connessione con il server"/>
+   <Button layoutX="550.0" layoutY="495.0" mnemonicParsing="false" onAction="#handleInoltra" prefHeight="30.0" prefWidth="78.0" text="Inoltra"/>
+   <ListView fx:id="lstLista" layoutX="7.0" layoutY="85.0" prefHeight="383.0" prefWidth="730.0"/>
+   <Label fx:id="lblConnessioneOn" layoutX="504.0" layoutY="46.0" prefHeight="17.0" prefWidth="232.0" text="Sei connesso/a con il server." visible="false"/>
+   <Label fx:id="lblNotifica" layoutX="260.0" layoutY="31.0" prefHeight="17.0" prefWidth="143.0" text="Hai un nuovo messaggio!" visible="false"/>
+   <Label fx:id="lblSeleziona" layoutX="248.0" layoutY="14.0" prefHeight="17.0" prefWidth="167.0" text="Nessun elemento selezionato!" visible="false"/>
+   <Label fx:id="lblConnessioneOff" layoutX="504.0" layoutY="46.0" prefHeight="17.0" prefWidth="232.0" text="Non sei connesso/a con il server." visible="false"/>
+   <Label fx:id="lblServer" layoutX="203.0" layoutY="46.0" prefHeight="17.0" prefWidth="258.0" text="ATTENZIONE: Non sei connesso/a al server!" visible="false"/>
+</Pane>

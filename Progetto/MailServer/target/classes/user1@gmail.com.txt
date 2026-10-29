@@ -1,0 +1,6 @@
+
+ID: 78363From: user2@hotmail.itTo: user1@gmail.comSubject: ciaoBodyReceived: - user1@gmail.com: salve<<!NEWLINE!>>- user2@hotmail.it: buongiornoBodySend: buongiornoDate: 2026-07-12
+ID: 39418From: user3@outlook.itTo: user2@hotmail.it user1@gmail.comSubject: ciao a tuttiBodyReceived: - user3@outlook.it: ciao a tuttiBodySend: ciao a tuttiDate: 2026-07-12
+ID: 41936From: user2@hotmail.itTo: user1@gmail.com user3@outlook.itSubject: ciao a tuttiBodyReceived: - user3@outlook.it: ciao a tutti<<!NEWLINE!>>- user1@gmail.com: ciao, come state?<<!NEWLINE!>>- user2@hotmail.it: io bene e voi?BodySend: io bene e voi?Date: 2026-07-12
+ID: 74289From: user1@gmail.comTo: user1@gmail.comSubject: provaBodyReceived: - user1@gmail.com: ciao<<NEWLINE>>come<<NEWLINE>>va<<NEWLINE>>?BodySend: ciao<<NEWLINE>>come<<NEWLINE>>va<<NEWLINE>>?Date: 2026-07-12
+ID: 67360From: user1@gmail.comTo: user1@gmail.comSubject: dfsBodyReceived: - user1@gmail.com: buongiorno,<<NEWLINE>>ho ricevuto la sua email<<NEWLINE>>cordiali saluti<<NEWLINE>>simoneBodySend: buongiorno,<<NEWLINE>>ho ricevuto la sua email<<NEWLINE>>cordiali saluti<<NEWLINE>>simoneDate: 2026-07-12

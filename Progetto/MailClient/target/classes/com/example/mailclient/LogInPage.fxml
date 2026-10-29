@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="300" maxWidth="437.0" minHeight="145.0" minWidth="200" prefHeight="170.0" prefWidth="396.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mailclient.controller.ControllerLogIn">
+    <Button layoutX="114.0" layoutY="97.0" mnemonicParsing="false" onAction="#handleInserisci" prefHeight="25.0" prefWidth="165.0" text="Inserisci" />
+    <Label layoutX="14.0" layoutY="49.0" text="Inserire l'indirizzo e-mail:" />
+    <TextField fx:id="txtInserisci" layoutX="148.0" layoutY="45.0" prefHeight="25.0" prefWidth="244.0" />
+   <Label fx:id="lblVerifica" layoutX="94.0" layoutY="139.0" text="Verifica" visible="false" />
+</Pane>
